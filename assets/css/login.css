@@ -91,7 +91,7 @@ h3{
     font-weight: 500;
     font-size: 16px;
     color: rgba(181, 174, 174, 0.901);
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .button{
@@ -127,6 +127,10 @@ h3{
 .block_logo{
     display: flex;
     align-items: center;
+}
+
+img{
+    height: 504px;
 }
 
 .total{

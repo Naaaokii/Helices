@@ -84,9 +84,12 @@ h3{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: rgb(126, 217, 87) solid 2px;
     height: 400px;
     width: 400px;
+}
+
+img{
+    height: 350px;
 }
 
 .youtube{
@@ -101,10 +104,12 @@ h3{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 p{
-    font-size: 50px;
+    font-size: 60px;
+    margin-top: 25px;
 }
 
 .gotopbtn {
