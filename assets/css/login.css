@@ -8,6 +8,10 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 
 /*------------------------- HEADER --------------------------------------*/
 
@@ -152,7 +156,7 @@ form div{
     position: fixed;
     width: 50px;
     height: 50px;
-    background-color: rgb(126, 217, 87);
+    background-color: rgb(255, 189, 89);
     bottom: 40px;
     right: 50px;
     opacity: 50%;
@@ -164,14 +168,74 @@ form div{
 }
 
 
-/*------------------------- COLOR --------------------------------------*/
+/*------------------------- FOOTER --------------------------------------*/
 
-.color_orange {
-    color: orange;
+
+.footer {
+    display: flex;
+    background-color: rgb(126, 217, 87);
+    justify-content: space-around;
+    margin-top: 90px;
+}
+.foo-brands {
+    background-color: rgb(255, 189, 89);
+    background-size: auto;
+    font-size: large;
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 75px;
+    border-radius: 3px;
 }
 
-.color_gray {
-    color: rgb(168, 167, 167);
+.footerdiv {
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+}
+
+ul li {
+    margin-top: 10px;
+    margin-left: -20px;
+}
+
+.move_lines {
+    margin-top: 20px;
+}
+
+.space {
+    margin-top: 100px;
+}
+
+.footlink{
+    text-decoration: none;
+    color: rgb(0, 0, 0)
+}
+
+ul{
+    list-style-type: square;
+}
+
+div p{
+    margin-top: 10px;
+}
+
+.infos{
+    margin-top: 20px;
+}
+
+.logos{
+    margin-top: 20px;
+}
+
+
+/*------------------------- COLOR --------------------------------------*/
+
+
+.color_black {
+    color: rgb(0, 0, 0);
 }
 
 .button_dl {
