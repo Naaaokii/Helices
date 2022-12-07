@@ -92,7 +92,7 @@ h3{
     width: 400px;
 }
 
-img{
+.logo_img{
     height: 350px;
 }
 
@@ -100,8 +100,12 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: rgb(126, 217, 87) solid 2px;
     height: 200px;
+    margin-top: 20px;
+}
+
+.youtube_img{
+    height: 230px;
 }
 
 .text{
