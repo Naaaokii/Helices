@@ -68,3 +68,56 @@ body{
 h3{
     font-size: 35px;
 }
+
+
+/*------------------------- INDEX --------------------------------------*/
+
+
+.index{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: rgb(126, 217, 87) solid 2px;
+    height: 400px;
+    width: 400px;
+}
+
+.youtube{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: rgb(126, 217, 87) solid 2px;
+    height: 200px;
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    font-size: 50px;
+}
+
+.gotopbtn {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(126, 217, 87);
+    bottom: 40px;
+    right: 50px;
+    opacity: 50%;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 22px;
+}

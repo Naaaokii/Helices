@@ -72,18 +72,6 @@ h3{
 
 /*------------------------- LOGIN --------------------------------------*/
 
-
-.connex{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background : url(../../assets/images/backgroung_register.jpeg) 0% 35%;
-    padding-top: 55px;
-    padding-bottom: 50px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 35px;
-
-}
 .login{
     display: flex;
     flex-direction: column;
@@ -91,49 +79,76 @@ h3{
     padding-top: 7%;
     padding-bottom: 5%;
 }
+
 .zone{
     margin-bottom: 15px;
     border-radius: 5px;
     padding-left: 20px;
     width: 350px;
-    border: none;
-    background-color: #292f3fc7;
+    border: rgb(126, 217, 87) solid 1px;
+    background-color: rgb(255, 255, 255);
     height: 50px;
     font-weight: 500;
     font-size: 16px;
     color: rgba(181, 174, 174, 0.901);
     color: white;
 }
+
 .button{
     width: 100px;
     height: 50px;
-    background: orange;
-    border: rgba(0, 0, 50, 0.5) solid 1px;
+    background: rgb(126, 217, 87);
+    border: rgb(126, 217, 87) solid 1px;
     border-radius: 5px;
     box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
     color: white;
 }
 
-.impbutton{
-    border: none;
-    background-color: orange;
-    color: white;
-    padding: 10px 15px;
-    border-radius: 2px;
-
-}
 .reglink{
     text-decoration: none;
-    color: orange;
+    color: rgb(126, 217, 87);
     margin-left: 10px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.connexion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.block_form{
+    border: rgb(126, 217, 87) solid 2px;
+    border-radius: 5px;
+    height: 500px;
+    width: 450px;
+}
+
+.block_logo{
+    display: flex;
+    align-items: center;
+}
+
+.total{
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+    margin-left: 40px;
+}
+
+form{
+    margin-top: 30px;
+}
+
+form div{
+    margin-top: 20px;
 }
 
 .gotopbtn {
     position: fixed;
     width: 50px;
     height: 50px;
-    background-color: orange;
+    background-color: rgb(126, 217, 87);
     bottom: 40px;
     right: 50px;
     opacity: 50%;
