@@ -129,6 +129,14 @@ select{
     border-radius: 5px;
 }
 
+.send{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: rgb(0, 0, 0) solid 1px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
 
 /*------------------------- FOOTER --------------------------------------*/
 
