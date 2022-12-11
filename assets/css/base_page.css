@@ -75,22 +75,7 @@ h3{
 
 
 
-/*------------------------- DASHBOARD --------------------------------------*/
-
-
-
-.dashboard{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 90px;
-}
-
-.fa-puzzle, .fa-cards, .fa-rectangle-history-circle-user{
-    color: rgb(0, 0, 0);
-    background-color: rgb(0, 0, 0);
-    width: 200px;
-}
+/*------------------------- A Remplir --------------------------------------*/
 
 
 .gotopbtn {
