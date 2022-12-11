@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./assets/css/scenario.css">
+        <link rel="stylesheet" href="./assets/css/environment.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <title>SCENARIO</title>
     </head>
@@ -27,54 +27,110 @@
             </section>
         </header>
         <section>
-            <h1>Scenario Level</h1>
+            <h1>Environment Level</h1>
         </section>
-        <section class="scenario">
-            <div>
-                <input class="zone" type="text" 
-                name="game_name" 
-                id="game_name" 
-                placeholder=" Nom de votre jeu" required>
+        <section class="espace">
+            <div class="title">
+                <h4>Thème</h4>
             </div>
+        </section>
+        <section class="environment">
             <div>
-                <select name="chrono" id="chrono">
-                    <option value="" class="chrono">Chrono</option>
-                    <option value="avec">Avec</option>
-                    <option value="sans">Sans animés</option>
+                <select name="theme" id="theme">
+                    <option value="" class="theme">Thème</option>
+                    <option value="pollution/dépollution">Pollution/dépollution</option>
+                    <option value="biodiversite">La biodiversité</option>
+                    <option value="recyclage">Le recyclage</option>
+                    <option value="rechauffement_climatique">Le réchauffement climatique</option>
+                    <option value="eau">L’eau</option>
+                    <option value="air">L'air</option>
+                    <option value="dechets">Les déchets</option>
+                    <option value="gestes_ecolos">Les gestes écolos</option>
+                    <option value="especes_animales">Les espèces animales à protéger</option>
+                    <option value="tri_selectif">Le tri sélectif</option>
+                    <option value="consommation">La consommation raisonnée</option>
+                    <option value="numerique">Le numérique responsable</option>
                 </select>
             </div>
             <div>
-                <select name="enigmes" id="enigmes">
-                    <option value="" class="enigmes">Nombre d'énigmes</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
+                <select name="sous_theme1" id="sous_theme1">
+                    <option value="" class="sous_theme1">Premier sous thème</option>
+                    <option value="pollution_mer">La pollution des mers</option>
+                    <option value="disparition">Les espèces en voie de disparition</option>
+                    <option value="biodiversite">La biodiversité</option>
+                    <option value="environnement">Le code de l'environnement</option>
+                    <option value="invasives">Les espèces invasives</option>
+                    <option value="ecosysteme">L’écosystème marin</option>
+                    <option value="chasse">La chasse</option>
+                    <option value="peche">La pêche</option>
+                    <option value="ecologie">L'ecologie</option>
                 </select>
             </div>
             <div>
-                <select name="difficulty" id="difficulty">
-                    <option value="" class="difficulty">Difficulté</option>
-                    <option value="6/5">6eme/5eme</option>
-                    <option value="4/3">4eme/3eme</option>
-                    <option value="sde/term">Sde/Terminale</option>
+                <select name="sous_theme2" id="sous_theme2">
+                    <option value="" class="sous_theme2">Deuxième sous thème</option>
+                    <option value="disparition">Les espèces en voie de disparition</option>
+                    <option value="biodiversite">La biodiversité</option>
+                    <option value="environnement">Le code de l'environnement</option>
+                    <option value="invasives">Les espèces invasives</option>
+                    <option value="ecosysteme">L’écosystème marin</option>
+                    <option value="chasse">La chasse</option>
+                    <option value="peche">La pêche</option>
+                    <option value="ecologie">L'ecologie</option>
                 </select>
             </div>
             <div>
-                <select name="row" id="row">
-                    <option value="" class="row">Progression linéaire</option>
-                    <option value="avec">Avec</option>
-                    <option value="sans">Sans animés</option>
+                <select name="sous_theme3" id="sous_theme3">
+                    <option value="" class="sous_theme3">Troisième sous thème</option>
+                    <option value="biodiversite">La biodiversité</option>
+                    <option value="environnement">Le code de l'environnement</option>
+                    <option value="invasives">Les espèces invasives</option>
+                    <option value="ecosysteme">L’écosystème marin</option>
+                    <option value="chasse">La chasse</option>
+                    <option value="peche">La pêche</option>
+                    <option value="ecologie">L'ecologie</option>
                 </select>
             </div>
             <div>
-                <select name="collaborate" id="collaborate">
-                    <option value="" class="collaborate">Mode collaboratif</option>
-                    <option value="avec">Avec</option>
-                    <option value="sans">Sans animés</option>
+                <select name="sous_theme4" id="sous_theme4">
+                    <option value="" class="sous_theme4">Quatrième sous thème</option>
+                    <option value="environnement">Le code de l'environnement</option>
+                    <option value="invasives">Les espèces invasives</option>
+                    <option value="ecosysteme">L’écosystème marin</option>
+                    <option value="chasse">La chasse</option>
+                    <option value="peche">La pêche</option>
+                    <option value="ecologie">L'ecologie</option>
                 </select>
             </div>
+        </section>
+        <section class="espace">
+            <div class="title">
+                <h4>Décor</h4>
+            </div>
+        </section>
+        <section class="decor">
+            <div>
+                <img src="" alt="Image1">
+            </div>
+            <div>
+                <img src="" alt="Image2">
+            </div>
+            <div>
+                <img src="" alt="Image3">
+            </div>
+            <div>
+                <img src="" alt="Image4">
+            </div>
+            <div>
+                <img src="" alt="Image5">
+            </div>
+        </section>
+        <section class="espace">
+            <div class="title">
+                <h4>Quête</h4>
+            </div>
+        </section>
+        <section class="environment">
             <div>
                 <a href="/create_escape.html" class="send">Valider</a>
             </div>
@@ -102,4 +158,5 @@
             </div>
         </footer>
     </body>
+    <script src="assets/js/environment.js"></script>
 </html>
