@@ -57,6 +57,6 @@ function choice4(){
     }
     else{
         sous_theme4.style.visibility = "hidden";
-        sous_theme4.value = "";
+        sous_theme4 .value = "";
     }
 }
