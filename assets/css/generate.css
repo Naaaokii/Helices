@@ -86,6 +86,32 @@ h1{
     background-color: rgb(255, 189, 89);
 }
 
+.haut, .hautnext, .basnext, .bas{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.haut div, .hautnext div, .basnext div, .bas div, .text p{
+    border: rgb(126, 217, 87) solid 4px;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.send{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: rgb(0, 0, 0) solid 1px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.envoi{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
 .gotopbtn {
     position: fixed;
     width: 50px;
@@ -99,6 +125,114 @@ h1{
     line-height: 50px;
     color: white;
     font-size: 22px;
+}
+
+
+/*----------------- FLECHES -----------------*/
+
+
+.fa-arrow-down{
+    font-size: 100px;
+    margin-left: 680px;
+    margin-top: 30px;
+}
+
+
+/*----------------- HAUT -----------------*/
+
+
+.haut{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.haut div{
+    justify-content: center;
+}
+
+h4{
+    font-size: 30px;
+}
+
+.haut p{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+
+
+/*----------------- HAUT NEXT -----------------*/
+
+
+.hautnext .list p, .hautnext .list h6{
+    display: flex;
+    justify-content: center;
+}
+
+h6{
+    font-size: 22px;
+}
+
+.hautnext{
+    display: flex;
+    justify-content: space-around;
+}
+
+.hautnext p{
+    font-size: 18px;
+}
+
+
+/*----------------- BAS NEXT -----------------*/
+
+
+.basnext{
+    display: flex;
+    justify-content: space-around;
+}
+
+.basnext div p, .basnext div h5{
+    display: flex;
+    justify-content: center;
+}
+
+h5{
+    font-size: 22px;
+}
+
+.basnext p{
+    font-size: 18px;
+}
+
+
+/*----------------- Bas -----------------*/
+
+
+.bas{
+    display: flex;
+    justify-content: space-around;
+}
+
+.bas div p{
+    display: flex;
+    justify-content: center;
+}
+
+.bas p{
+    font-size: 22px;
+}
+
+
+/*----------------- TEXT -----------------*/
+
+
+.text{
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    margin-top: 20px;
 }
 
 
