@@ -28,5 +28,5 @@ function path4(){
 }
 
 function path5(){
-    document.location.href="#"; 
+    document.location.href="generate.html"; 
 }
