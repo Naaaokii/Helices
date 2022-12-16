@@ -1,0 +1,223 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+/*------------------------- HEADER --------------------------------------*/
+
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(126, 217, 87);
+    height: 80px;
+}
+
+.divnav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    text-align: right;
+}
+
+.correctlink{
+    text-decoration: none;
+    margin-left: 40px;
+    margin-top: auto;
+    color: black;
+    margin-bottom: auto;
+}
+
+.correctlink:hover{
+    color: rgb(255, 255, 255);
+    border-top-style: solid;
+    border-color: rgb(255, 255, 255);
+    padding-top: 15px;
+    margin-top: -10px;
+}
+
+.fa-user {
+    background-color: rgb(255, 255, 255);
+    padding: 13px 16px 13px 16px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: -8px;
+    color: rgb(0, 0, 0);
+}
+
+.barre_titre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+}
+
+#barre{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 35px;
+}
+
+
+
+/*------------------------- ACTIVITY --------------------------------------*/
+
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(255, 189, 89);
+}
+
+h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    background-color: rgb(126, 217, 87);
+}
+
+.haut, .bas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.haut div, .bas div{
+    width: 400px;
+    margin-top: 70px;
+    border: rgb(126, 217, 87) solid 2px;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+h4, select{
+    border-radius: 5px;
+}
+
+section p{
+    margin-top: 10px;
+}
+
+select{
+    width: 400px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.send{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: rgb(0, 0, 0) solid 1px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.envoi{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.gotopbtn {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 189, 89);
+    bottom: 40px;
+    right: 50px;
+    opacity: 50%;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 22px;
+}
+
+
+/*------------------------- FOOTER --------------------------------------*/
+
+
+.footer {
+    display: flex;
+    background-color: rgb(126, 217, 87);
+    justify-content: space-around;
+    margin-top: 90px;
+}
+.foo-brands {
+    background-color: rgb(255, 189, 89);
+    background-size: auto;
+    font-size: large;
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 75px;
+    border-radius: 3px;
+}
+
+.footerdiv {
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+}
+
+ul li {
+    margin-top: 10px;
+    margin-left: -20px;
+}
+
+.move_lines {
+    margin-top: 20px;
+}
+
+.space {
+    margin-top: 100px;
+}
+
+.footlink{
+    text-decoration: none;
+    color: rgb(0, 0, 0)
+}
+
+ul{
+    list-style-type: square;
+}
+
+div p{
+    margin-top: 10px;
+}
+
+.infos{
+    margin-top: 20px;
+}
+
+.logos{
+    margin-top: 20px;
+}
+
+
+/*------------------------- COLOR --------------------------------------*/
+
+
+.color_black {
+    color: rgb(0, 0, 0);
+}
